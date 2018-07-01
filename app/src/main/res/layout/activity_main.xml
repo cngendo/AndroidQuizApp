@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pink"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/question_1"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            app:fontFamily="casual" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="@string/when_were_andela_google_and_udacity_founded_respectively"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="32dp">
+
+            <RadioButton
+                android:id="@+id/first_choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2013, 1995, 2012" />
+
+            <RadioButton
+                android:id="@+id/second_choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2014, 1998, 2011" />
+
+            <RadioButton
+                android:id="@+id/third_choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2012, 1999, 2010" />
+
+            <RadioButton
+                android:id="@+id/fourth_choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2014, 1996, 2011" />
+
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="0"
+            android:background="#F06292" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/question_2"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            app:fontFamily="casual" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="@string/what_does_adb_stand_for_in_android"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/answer_two_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="32dp"
+            android:hint="@string/answer"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="0"
+            android:background="#F06292" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/question_3"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            app:fontFamily="casual" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="@string/select_statements_that_are_true"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/first_choice_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:text="@string/andriod_is_a_mobile_operating_system"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/second_choice_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:text="@string/android_was_developed_by_android_inc"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/third_choice_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="32dp"
+            android:text="@string/android_was_not_bought_by_google"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="0"
+            android:background="#F06292" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/question_4"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            app:fontFamily="casual" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="@string/android_is_based_in_which_language"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="32dp">
+
+            <RadioButton
+                android:id="@+id/first_option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C" />
+
+            <RadioButton
+                android:id="@+id/second_option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C++" />
+
+            <RadioButton
+                android:id="@+id/third_option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Java" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="0"
+            android:background="#F06292" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/question_5"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            app:fontFamily="casual" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="@string/what_does_ide_stand_for"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/answer_five_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="32dp"
+            android:hint="@string/answer"
+            android:inputType=""
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="0"
+            android:background="#F06292" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/total_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="16dp"
+                android:background="#9C27B0"
+                android:onClick="grading"
+                android:padding="8dp"
+                android:text="@string/grade" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginTop="16dp"
+                android:background="#9C27B0"
+                android:gravity="center"
+                android:onClick="reset"
+                android:padding="8dp"
+                android:text="@string/reset" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

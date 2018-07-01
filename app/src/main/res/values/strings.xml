@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AndroidQuizApp</string>
+    <string name="answer">Answer</string>
+    <string name="question_5">question 5</string>
+    <string name="what_does_ide_stand_for">What does IDE stand for?</string>
+    <string name="question_1">question 1</string>
+    <string name="android_was_developed_by_android_inc">Android was developed by Android Inc.</string>
+    <string name="when_were_andela_google_and_udacity_founded_respectively">When were Andela, Google, and Udacity founded respectively?</string>
+    <string name="question_2">question 2</string>
+    <string name="what_does_adb_stand_for_in_android">What does ADB stand for in Android?</string>
+    <string name="grade">GRADE</string>
+    <string name="reset">Reset</string>
+    <string name="android_is_based_in_which_language">Android is based in which language?</string>
+    <string name="question_4">question 4</string>
+    <string name="android_was_not_bought_by_google">Android was not bought by Google</string>
+    <string name="andriod_is_a_mobile_operating_system">Andriod is a mobile operating system</string>
+    <string name="select_statements_that_are_true">Select statements that are true</string>
+    <string name="question_3">question 3</string>
+</resources>

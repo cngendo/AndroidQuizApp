@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidQuizApp</string>
+    <string name="question_5">Swali la 5</string>
+    <string name="question_1">Swali la 1</string>
+    <string name="question_2">Swali la 2</string>
+    <string name="question_4">Swali la 4</string>
+    <string name="question_3">Swali la 3</string>
+</resources>
